@@ -21,3 +21,9 @@ exports.ReceiveForm = async function(request, response){
     response.render('Home/SubmittedData', { selectedStore: store, selectedDay:day, 
                                             selectedVehicles: vehicles })
 };
+
+// Kevin Shi's controller
+exports.KevinShi = async function(request, response){
+    let classes = ["Business Systems Analysis", "Web Development"];
+    response.render('Home/KevinShi', { classes:classes })
+};

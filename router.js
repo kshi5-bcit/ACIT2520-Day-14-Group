@@ -5,4 +5,6 @@ module.exports = function(app){
     // Main Routes
     app.get('/',      HomeController.Index);    
     app.post('/Home/ReceiveForm', HomeController.ReceiveForm);
+
+    app.get('/Home/KevinShi', HomeController.KevinShi);
 };
