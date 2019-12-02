@@ -5,6 +5,8 @@ var KevinShiController = require('./Controllers/KevinShiController');
 var KevinCheeController = require('./Controllers/KevinCheeController')
 var TristanPController = require('./Controllers/TristanPController');
 
+var SharleneTController = require('./Controllers/SharleneTanController');
+
 // Routes
 module.exports = function(app){
     // Main Routes
