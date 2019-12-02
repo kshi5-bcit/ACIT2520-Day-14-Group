@@ -1,4 +1,3 @@
-//hello
 var HomeController = require('./Controllers/HomeController');
 
 var KevinShiController = require('./Controllers/KevinShiController');
@@ -10,4 +9,5 @@ module.exports = function(app){
     app.post('/Home/ReceiveForm', HomeController.ReceiveForm);
 
     app.get('/KevinShi', KevinShiController.KevinShi);
+    app.get('SharleneTan', SharleneTan.SharleneTan)
 };
