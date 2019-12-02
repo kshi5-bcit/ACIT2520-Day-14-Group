@@ -9,3 +9,5 @@ Our main collaborators are:
     - Tristan 
     - Kevin Shi
     - Sharlene
+
+(please make sure you add a link to the main layout)
