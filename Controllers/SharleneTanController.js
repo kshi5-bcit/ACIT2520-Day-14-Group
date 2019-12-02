@@ -1,4 +1,4 @@
 exports.SharleneTan = async function(request, response){
-    let classes = ["Scripting", "Web Development"];
-    response.render('SharleneTan/SharleneTan', { classes:classes })
+    let words = ["hello", "there"];
+    response.render('SharleneTan/SharleneTan', { words:words })
 };
