@@ -11,4 +11,5 @@ module.exports = function(app){
     app.post('/Home/ReceiveForm', HomeController.ReceiveForm);
     app.get('/KevinShi', KevinShiController.KevinShi);
     app.get('/TristanP', TristanPController.TristanP);
+    app.get('SharleneTan', SharleneTan.SharleneTan)
 };

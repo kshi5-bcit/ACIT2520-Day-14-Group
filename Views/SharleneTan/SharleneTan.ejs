@@ -1,0 +1,8 @@
+<% layout('../layouts/mainlayout.ejs') -%>
+<br/>
+<b>Today's Classes</b>
+<ul>
+<% for(var i=0; i<classes.length; i++) { %>
+      <li><%= classes[i] %></li>
+<% } %>
+</ul>
