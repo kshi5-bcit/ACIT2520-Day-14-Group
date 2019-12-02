@@ -15,5 +15,5 @@ module.exports = function(app){
     app.get('/KevinShi', KevinShiController.KevinShi);
     app.get('/KevinChee', KevinCheeController.KevinChee);
     app.get('/TristanP', TristanPController.TristanP);
-    app.get('SharleneTan', SharleneTan.SharleneTan)
+    app.get('/SharleneTan', SharleneTan.SharleneTan)
 };
